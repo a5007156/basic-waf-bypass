@@ -1,8 +1,8 @@
 import random
 import pyperclip
 
-print("The query must look like something like this: 'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10'")
-string = str(input("Enter a string: "))
+print("The input must look like something like this: 'UNION ALL SELECT 1,2,3,4,5,6,7,8,9,10'")
+string = str(input("Enter the string: "))
 
 randomized_string = ""
 for char in string:
